@@ -1,14 +1,11 @@
-# UK VAT Module
+# Malta VAT Module
 
-The UK VAT module is an application for ERPNext to extend it to include:
+The Malta VAT module is an application for ERPNext to extend it to include:
 
- * A VAT Return generator for UK/EU VAT. This uses data from your invoices to automatically
+ * A VAT Return generator for Malta VAT. This uses data from your invoices to automatically
    produce a VAT return;
 
- * A drilldown report to show the underlying composition of the VAT return; and
-
- * An optional Making-Tax-Digital submission. (Please note: This feature requires additional
-   client credentials from HMRC.)
+ * A drilldown report to show the underlying composition of the VAT return.
 
 We hope you find it useful. Please feel free to raise issues or submit pull requests as
 required.
@@ -18,8 +15,8 @@ required.
 You can install this module into your existing installation with :
 
 ```sh
-	bench get-app uk_vat https://github.com/software-to-hardware/erpnext-vat-mtd
-	bench install-app uk_vat
+	bench get-app uk_vat https://github.com/software-to-hardware/erpnext-vat-malta
+	bench install-app malta_vat
 ```
 
 ## Configuration of the VAT return
